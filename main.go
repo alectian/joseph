@@ -1,6 +1,6 @@
 package main
 
-import "0625homework/CircleLink"
+import "joseph/CircleLink"
 
 func main() {
 	first := CircleLink.CreateFirstPeople()

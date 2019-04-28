@@ -49,7 +49,6 @@ func ShowPeoples(start *People){
 func GameStart(people *People,outNum int) {
 	num := 1
 	for true {
-		time.Sleep(500*time.Millisecond)
 		if people.NextPeople == people {
 			fmt.Println("游戏结束,最后剩余",people.Num,"号")
 			break
